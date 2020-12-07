@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root{
+    --pink: #FC458B;
+    --bright-blue: #10ADEE;
+    --medium-blue: #007cba;
+    --yellow: #f7c100;
+    --blue: #00a5de;
+    --dark-bg: #333;
+    --text: #222;
+    --light-bg: #fafafa;
+    --salmon: #ff7979;
+    --french-sky-blue: #84AFE6;
+    --aero: #79beee;
+    --turquoise: rgb(65, 234, 212);
+    --aero-blue: rgb(184, 242, 230);
+    --queen-blue: rgb(65, 101, 138);
+    --dark-slate-blue: rgb(65, 64, 115);
+    --burnt-sienna: rgb(222, 110, 75);
+    --blue-munsell: rgb(53, 135, 164);
+    --dark-cyan: rgb(45, 137, 139);
+    --steel-blue: rgb(53, 129, 184);
+    --mac-and-cheese: rgb(252, 176, 126);
+    --left-bg: rgba(53, 129,184, .8);
+    --right-bg: rgba(252, 176, 126, .8);
+    --hover-width: 75%;
+    --unhover-width: 25%;
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    background: url('/images/blue-moon.jpg') center center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid var(--pink);;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(255,255,255,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color:var(--yellow);
+    box-shadow: 0 0 1rem var(--yellow);
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:var(--yellow);
+  }
+  
